@@ -1,10 +1,10 @@
 # Catherine Bogush
 ### Contacts:
-**tel:** +48 780 769 038
-**e-mail:** 7767000@tut.by
-**Telegram:** @Cate_Bo
-**discord:** QwakaBraka
-**GitHub:** https://github.com/QwakaBraka/rsschool-cv.git
+* **tel:** +48 780 769 038
+* **e-mail:** _7767000@tut.by_
+* **Telegram:** _**@Cate_Bo**_
+* **discord:** QwakaBraka
+* **GitHub:** **https://github.com/QwakaBraka/rsschool-cv.git**
 ### About Me
 Will be added.
 ### Skills
