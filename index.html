@@ -3,61 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="icon" href="assets/kitty-cookie.ico"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/kitty-cookie.ico">
     <title>CV Catherine Bogush</title>
    
 </head>
 <body>
-    <header class="header">
-    <div class="container">
+    <header class="header">    
         <h1><i>My name is Catherine Bogush</i></h1>
-        <img src="assets/kitty-cookie-smal-unfoned.png" alt="My avatar"/>
+        <img src="assets/kitty-cookie-smal-unfoned.png" alt="My avatar">
         <nav class="nav">
             <ul class="nav-list">
-              <li class="nav-item"><a href="#Contacts" class="nav-link"> Contacts </a></li><br>
+              <li class="nav-item"><a href="#Contacts" class="nav-link"> Contacts </a></li>
               <li class="nav-item"><a href="#Summary" class="nav-link"> Summary </a></li>
               <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
-              <li class="nav-item"><a href="#Code Examples" class="nav-link">Code Examples</a></li>
+              <li class="nav-item"><a href="#CodeExamples" class="nav-link">Code Examples</a></li>
               <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
               <li class="nav-item"><a href="#Languages" class="nav-link">Languages</a></li>
             </ul>
           </nav>
-    </div>
     </header>
-    <main class="main">
-    <div class="container">
+    <main class="main-container">
+        <div class="left-side">
         <h2 class="section-title"><i>Contacts</i></h2>
-        <section class="section" id="Contacts">
+        <div class="section" id="Contacts">
             <p class="p">
-            <i><b>Tel: </i></b> +48-780-769-038<br>
-            <i><b>e-mail: </i></b><a href="mailto:7767000@tut.by" class="link" target="_blank">@QwakaBraka</a><br>
-            <i><b>discord: </i></b><a href="https://discord.com/channels/516715744646660106/1072962541812191423" class="link" target="_blank">qwakabraka3514</a><br>
-            <i><b>GitHub: </i></b><a href="https://github.com/QwakaBraka/rsschool-cv.git" class="link" target="_blank">QwakaBraka</a><br>
+            <i><b>Tel: </b></i> +48-780-769-038<br>
+            <i><b>e-mail: </b></i><a href="mailto:7767000@tut.by" class="link" target="_blank">@QwakaBraka</a><br>
+            <i><b>discord: </b></i><a href="https://discord.com/channels/516715744646660106/1072962541812191423" class="link" target="_blank">qwakabraka3514</a><br>
+            <i><b>GitHub: </b></i><a href="https://github.com/QwakaBraka/rsschool-cv.git" class="link" target="_blank">QwakaBraka</a><br>
             </p>
-        </section>
+        </div>
         <h2 class="section-title"><i>Summary</i></h2>
-        <section class="section" id="Summary">
+        <div class="section" id="Summary">
                 <p class="p">I like to study something new and try to do it deeply, because 
                 I believe that the result depends on a detailed understanding of the 
                 processes.<br><br>
                 Will be added.                
             </p>
-        </section>
+        </div>
         <h2 class="section-title"><i>Skills</i></h2>
-        <section class="section" id="Skills">
-            <ul>
-                <li > <b>HTML </b><i> (In progress...)</i></li><br>
-                <li > <b>CSS </b><i> (In progress...)</i></li><br>
-                <li > <b>JavaScript </b><i> (In progress...)</i></li><br>
-                <li > <b>SQL </b><i> (In progress...)</i></li><br>
-                <li > <b>PHP </b><i> (In progress...)</i></li><br>
+        <div class="section" id="Skills">
+            <ul class="list">
+                <li > <b>HTML </b><i> (In progress...)</i></li>
+                <li > <b>CSS </b><i> (In progress...)</i></li>
+                <li > <b>JavaScript </b><i> (In progress...)</i></li>
+                <li > <b>SQL </b><i> (In progress...)</i></li>
+                <li > <b>PHP </b><i> (In progress...)</i></li>
             </ul>
-            <p>Will be added</p>
-        </section>
+            <p class="p">Will be added</p>
+        </div>
+    </div>
+    <div class="right-size">
         <h2 class="section-title"><i>Code Examples</i></h2>
-        <section class="section-code" id="Code Examples">
-            <code><pre>
+        <div class="section-code" id="CodeExamples">
+            <pre><code>
     let moveFromLeft = 0;
     function moveHeader(){
         $("#the1LevelHeader").offset({left:moveFromLeft});
@@ -67,31 +67,35 @@
             }
         };
     setInterval(moveHeader, 1);
-            </pre></code>
-        </section>
-        <h2 class="section-title"><i>Education</i></h2>
-        <section class="section" id="Education">
+            </code></pre>
+        </div>
+        <h2 class="section-title"><i>Education and Projects</i></h2>
+        <div class="section" id="Education">
             <p class="p">I have a higher education in the field of ecology. Graduated from 
-            <a href="https://www.iseu.bsu.by/ru/" class="link" target="_blank">BSU</a> in 2002.</p>
-
-            <p>Will be added.</p>
-        </section>
+            <a href="https://www.iseu.bsu.by/ru/" class="link" target="_blank">BSU</a> in 2002. The only project is <a href="https://qwakabraka.github.io/rsschool-cv/cv" class="link" target="_blank">CV</a></p>
+            <p class="p">Will be added.</p>
+            </div>
         <h2 class="section-title"><i>Languages</i></h2>
-        <section class="section" id="Languages">
-            <ul>
-                <li><a href="https://examinator.epam.com/passing/attendances/1268618" class="link" target="_blank">English (Level B1)</a></li>
+        <div class="section" id="Languages">
+            <ul class="list">
+                <li><a href="https://examinator.epam.com/passing/attendances/1268618" 
+                    class="link" target="_blank">English (Level B1)</a></li>
                 <li>Russian is native</li>
                 <li>Polish (Level B1)</li>
             </ul>
             <p class="p"> Will be added</p>
-        </section>
+        </div>
     </div>
 </main>
 <footer class="footer">
     <div class="container">
-
+        <ul class="nav-list">
+            <li><a href="https://github.com/qwakabraka" target="_blank" class="nav-link">My GitHub link</a></li>
+            <li class="nav-link">estimated 2024</li>
+            <li><img src="assets/rs-school-logo.png" alt="rs-school-logo" class="nav-link"></li>
+            <li><a href="https://rs.school/courses/javascript-ru" class="link" target="_blank">Link for courses</a></li>
+            </ul>
     </div>
 </footer>
-</header>
 </body>
 </html>
