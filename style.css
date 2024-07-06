@@ -1,4 +1,62 @@
 @font-face{
     font-family:PlayfairDisplay-Black;
     src:url("assets/fonts/Playfair_Display/static/PlayfairDisplay-Black.ttf");
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+  }
+.header{
+    background-color: pink;
+    border: 5px solid palevioletred;
+    color: rgb(219, 8, 78);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.main{
+    background-color: white;
+    border: 5px solid palevioletred;
+    color: rgb(219, 8, 78);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.footer{
+    background-color: pink;
+    border: 5px solid palevioletred;
+    color: rgb(219, 8, 78);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.p{
+    font-size: 20;
+    color:rgb(219, 8, 78);
+    line-height: 30px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+.nav-link{
+    padding: 0 40px;
+    color: rgb(219, 8, 78);
+    text-decoration: none;
+    font-size: 20px;
 }
