@@ -59,4 +59,51 @@ html {
     color: rgb(219, 8, 78);
     text-decoration: none;
     font-size: 20px;
+    transition: 0,3s;
+    cursor: pointer;
+}
+.section-item a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.section-item a:hover {
+    color: #4d2323;
+}
+
+.section-title {
+    margin-bottom: 30px;
+    color: rgb(219, 8, 78);
+    background-color: white;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.section {
+    border: 2px solid palevioletred;
+    width: 50%;
+    background-color: pink;
+    font-size: 20px;
+}
+@media (max-width: 768px) {
+.section {
+    border: 2px solid palevioletred;
+    width: 100%;
+    }
+}
+.link{
+    color: rgb(219, 8, 78);
+    text-decoration: underline;
+    font-size: 20px;
+    transition: 0,3s;
+    cursor: pointer;
+}
+.section-code {
+    border: 2px solid palevioletred;
+    width: 50%;
+    background-color: pink;
+    font-size: 15px;
+    font-family: PlayfairDisplay-Black;
 }
