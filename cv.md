@@ -1,12 +1,12 @@
 #  Catherine Bogush
-![avatar](kitty-cookie-smal.png)
+![avatar](assets/kitty-cookie-smal.png)
 ### Contacts:
 * **tel:** +48 780 769 038
 * **e-mail:** _7767000@tut.by_
 * **Telegram:** [Cate_Bo](@Cate_Bo)
 * **discord:** [QwakaBraka](qwakabraka3514)
 * **GitHub:** ls[QwakaBraka](https://github.com/QwakaBraka/rsschool-cv.git)
-### About Me
+### Summary
 I like to study something new and try to do it deeply, because I believe that the result depends on a detailed understanding of the processes
 
 Will be added.
