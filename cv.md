@@ -1,5 +1,5 @@
 #  Catherine Bogush
-![avatar](kitty-cookie-smal.png)
+![avatar](assets/kitty-cookie-smal.png)
 ### Contacts:
 * **tel:** +48 780 769 038
 * **e-mail:** _7767000@tut.by_
