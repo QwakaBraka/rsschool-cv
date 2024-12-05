@@ -1,3 +1,124 @@
-h1 {
-  font-size: 35px;
+@font-face{
+    font-family:PlayfairDisplay-Black;
+    src:url("assets/fonts/Playfair_Display/static/PlayfairDisplay-Black.ttf");
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: pink;
+    border: 5px solid palevioletred;
+    color: rgb(219, 8, 78);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.main{
+    background-color: white;
+    border: 5px solid palevioletred;
+    color: rgb(219, 8, 78);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.footer{
+    background-color: pink;
+    border: 5px solid palevioletred;
+    color: rgb(219, 8, 78);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.p{
+    font-size: 20;
+    color:rgb(219, 8, 78);
+    line-height: 30px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.left-side {
+    flex: 1;
+}
+.right-side {
+    flex: 1;
+}
+.section {
+    border: 2px solid palevioletred;
+    width: 98%;
+    background-color: pink;
+    font-size: 20px;
+}
+@media (max-width: 768px) {
+.section {
+    border: 2px solid palevioletred;
+    width: 50%;
+    }
+}
+.section-code {
+    border: 2px solid palevioletred;
+    width: 98%;
+    background-color: pink;
+    font-size: 15px;
+    font-family: PlayfairDisplay-Black;
+    color: rgb(219, 8, 78)
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+.nav-link{
+    padding: 0 40px;
+    color: rgb(219, 8, 78);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0,3s;
+    cursor: pointer;
+}
+.section-item a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.section-item a:hover {
+    color: #4d2323;
+}
+
+.section-title {
+    text-align:center;
+    margin-bottom: 30px;
+    color: rgb(219, 8, 78);
+    background-color: white;
+}
+.link{
+    color: rgb(219, 8, 78);
+    text-decoration: underline;
+    font-size: 20px;
+    transition: 0,3s;
+    cursor: pointer;
+}
+.list {
+    justify-content:flex-start;
+    color: rgb(219, 8, 78);
+    text-decoration: dotted;
 }
